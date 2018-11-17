@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+    .tab-content > .tab-pane {
+        display: none;
+        }
+    .tab-content > .active {
+        display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="tab-container">
+            <ul class="nav-tab">
+                <li class="active"> <a href="#tab1">tab1</a> </li>
+                <li> <a href="#tab2">tab2</a> </li>
+                <li> <a href="#tab3">tab3</a> </li>
+            </ul>
+            
+            <div class="tab-content">
+                <div class="tab-pane active" id="tab1">Content goes here 1</div>
+                <div class="tab-pane" id="tab2">Content goes here 2</div>
+                <div class="tab-pane" id="tab3">Content goes here 3</div>
+            </div>
+    </div>
+
+
+<script src="main.js"></script>
+    
+</body>
+</html>
